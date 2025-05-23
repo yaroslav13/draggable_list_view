@@ -1,0 +1,21 @@
+name: example
+description: "Example of draggable list view"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  draggable_list_view:
+    path: ../
+
+dev_dependencies:
+  very_good_analysis: 7.0.0
+
+flutter:
+  uses-material-design: true
